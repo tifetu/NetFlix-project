@@ -5,7 +5,7 @@ import requests from "../../commonService/requests";
 function Banner() {
   const [banner, setBanner] = useState([]);
   useEffect(() => {
-    async function BannerData(params) {
+    async function BannerData() {
       try {
         const response = await axios.get(requests.fetchNetflixOriginals);
         console.log(response);

@@ -1,6 +1,4 @@
-
-const API_KEY = "8cc79c08f548f0b3584261bd06aee321";
-
+const API_KEY = import.meta.env.VITE_TMDB_API_KEY;
 // Api endpoints
 const requests = {
   fetchNetflixOriginals: `/discover/tv?api_key=${API_KEY}&with_networks=213`,
