@@ -4,7 +4,7 @@
 }
 .banner_img {
   color: white;
-  /* object-fit: contain; */
+  object-fit: contain;
   /* height: 100vh; */
   /* padding: 60px 30px; */
 }
