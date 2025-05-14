@@ -25,7 +25,7 @@ function Banner() {
     return str?.length > n ? str.slice(0, n - 1) + "...." : str;
   }
   return (
-    <div className="banner_conttainer">
+    <div className="banner_container">
       <div
         className="banner_img"
         style={{

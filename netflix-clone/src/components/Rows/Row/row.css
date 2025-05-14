@@ -1,7 +1,7 @@
 /* src/components/Row/Row.css */
 .row {
   color: #fff;
-  margin-left: 20px;
+  margin-left:  20px;
   font-family: "Roboto", sans-serif;
   /* font-optical-sizing: auto;
   font-weight: 30px;
@@ -35,7 +35,11 @@
 }
 .row__posterLarge {
   max-height: 250px;
+  /* margin-top: 20%; */
 }
+/* .title{
+  margin: 20px 0 0 0;
+} */
 
 /* only row  */
 .arrow {
